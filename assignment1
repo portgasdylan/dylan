@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>A Thing</title>
+   </head>
+   <body>
+       <hl>Another Thing</hl>
+       <p>The One Piece is real</p>
+       <button id="btnAlert"
+       onClick="alert('DinkDonk');">
+       Click Me</button>
+   </body>
+</html>
