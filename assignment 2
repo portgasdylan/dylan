@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UAT Space Program</title>
+</head>
+<body>
+    <h1>UAT space program</h1>
+    <img src="UatSpaceLogo.jpg">
+
+    <p>
+        This is a paragraph tab. This is a great place to put page text
+    </p>
+
+    <button onclick="alert('You Clicked Me.');">Click Me</button>
+    <br>
+    <br>
+<button>Start</button>
+<button>Stop</button>
+
+<P>
+    Countdown: <span id="DisplayCountdown">Ready for takeoff</span>
+</P>
+<script>
+
+currTime= 50;
+var timeout = 5000;
+
+let x = document.getelementById("DisplayCountdown");
+
+setTimeout(function(){
+    x.innerHTML = currTime
+    currTime = currTime - 5;
+},  timeout);
+timeout = timeout + 5000;
+
+setTimeout(function(){
+    x.innerHTML = currTime
+    currTime = currTime - 5;
+},  timeout);
+timeout = timeout + 5000;
+
+setTimeout(function(){
+    x.innerHTML = currTime
+    currTime = currTime - 5;
+},  timeout);
+timeout = timeout + 5000;
+
+setTimeout(function(){
+    x.innerHTML = currTime
+    currTime = currTime - 5;
+},  timeout);
+timeout = timeout + 5000;
+
+setTimeout(function(){
+    x.innerHTML = currTime
+    currTime = currTime - 5;
+},  timeout);
+timeout = timeout + 5000;
+
+setTimeout(function(){
+    x.innerHTML = currTime
+    currTime = currTime - 5;
+},  timeout);
+timeout = timeout + 5000;
+
+setTimeout(function(){
+    x.innerHTML = currTime
+    currTime = currTime - 5;
+},  timeout);
+timeout = timeout + 5000;
+
+setTimeout(function(){
+    x.innerHTML = currTime
+    currTime = currTime - 5;
+},  timeout);
+timeout = timeout + 5000;
+
+setTimeout(function(){
+    x.innerHTML = currTime
+    currTime = currTime - 5;
+},  timeout);
+timeout = timeout + 5000;
+
+setTimeout(function(){
+    x.innerHTML = currTime
+    currTime = currTime - 5;
+},  timeout);
+timeout = timeout + 5000;
+
+</script>
