@@ -24,3 +24,89 @@ function runTimer(x){
 // These 2 functions start or stop something based on whether a button was clicked.
 function startButtonClick(){}
 function stopButtonClick(){} 
+
+function displayAlert(alertText){
+
+    i = 0;
+    
+    for(i=0; i < 5; i++){
+        alert(alertText + i);
+    }
+
+    for(i=10; i > 0; i--){
+        alert(alertText + "minus" + i);
+    }
+}
+
+    }, timeout);
+    timeout = timeout + 5000;
+
+    setTimeout(function() {
+        x.innerHTML = currTime;
+        currTime = currTime - 5;
+        
+    }, timeout);
+    timeout = timeout + 5000;
+
+    setTimeout(function() {
+        x.innerHTML = currTime;
+        currTime = currTime - 5;
+        
+    }, timeout);
+    timeout = timeout + 5000;
+
+    setTimeout(function() {
+        x.innerHTML = currTime;
+        currTime = currTime - 5;
+        
+    }, timeout);
+    timeout = timeout + 5000;
+
+    setTimeout(function() {
+        x.innerHTML = currTime;
+        currTime = currTime - 5;
+        
+    }, timeout);
+    timeout = timeout + 5000;
+
+    setTimeout(function() {
+        x.innerHTML = currTime;
+        currTime = currTime - 5;
+        
+    }, timeout);
+    timeout = timeout + 5000;
+
+    setTimeout(function() {
+        x.innerHTML = currTime;
+        currTime = currTime - 5;
+        
+    }, timeout);
+    timeout = timeout + 5000;
+
+    setTimeout(function() {
+        x.innerHTML = currTime;
+        currTime = currTime - 5;
+        
+    }, timeout);
+    timeout = timeout + 5000;
+
+    setTimeout(function() {
+        x.innerHTML = currTime;
+        currTime = currTime - 5;
+        
+    }, timeout);
+    timeout = timeout + 5000;
+
+    setTimeout(function() {
+        x.innerHTML = currTime;
+        currTime = currTime - 5;
+        
+    }, timeout);
+    timeout = timeout + 5000;
+
+    setTimeout(function() {
+        x.innerHTML = currTime;
+        currTime = currTime - 5;
+        
+    }, timeout);
+    timeout = timeout + 5000;
