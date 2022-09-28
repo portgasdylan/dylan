@@ -1,0 +1,26 @@
+// This Function basically starts a timer based on the number of milliseconds you input.
+currTime = 50;
+var timeout = 5000;
+
+function runTimer(x){
+    for(i=0;i<11;i++){
+        setTimeout(function(
+            if(currTime==0)
+            alert("done")
+        ) {
+            x.innerHTML = currTime;
+            currTime = currTime - 5;
+            
+        }, timeout);
+        timeout = timeout + 5000;
+
+            
+    
+        
+        }
+    }
+    
+
+// These 2 functions start or stop something based on whether a button was clicked.
+function startButtonClick(){}
+function stopButtonClick(){} 
