@@ -15,6 +15,8 @@
 
     <br>
     <br>
+    <input type="button" id="btnStart" value="Start" onclick="startButtonClick();"/>
+    <input type="button" id="btnStop" value="Stop" disabled="true" onclick="stopButtonClick();"/>
 
 
 <P>
@@ -22,10 +24,7 @@
 </P>
 
 <script>
-
-
-    let x = document.getElementById("DisplayCountdown");
-    runTimer(x);
+    getUserInput()
 
 
 
