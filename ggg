@@ -1,0 +1,11 @@
+class Person:
+    def _init_(self, name, birthdate, num_of_cats):
+        self.name = name
+        self.birthdate = birthdate
+        self.num_of_cats = num_of_cats
+        
+person1 = Person("Dylan Maxwell", "2/22/2005", 2)
+
+print(person1.name)
+
+class 
