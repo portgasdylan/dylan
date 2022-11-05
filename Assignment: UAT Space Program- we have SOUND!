@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<!--Dylan Maxwell-->
+<head>
+    <title>UAT Space Program</title>
+    <!--This calls the javascript file-->
+    <script src="code.js"></script>
+</head>
+<body>
+    <h1 style="color:dodgerblue;">UAT Space Program</h1>
+    <!--This creates an audio code that plays the audio file requested-->
+    <audio controls>
+        <source src="space_station.mp3" type="audio/mpeg">
+    </audio>
+    <img src="UatSpaceLogo.jpg">
+
+    <p>
+        Welcome to the UAT Space Program Launch!
+    </p>
+
+    <br>
+    <br>
+    <!--This is a script for a button that either is Started or Stopped-->
+    <input type="button" id="btnStart" value="Start" onclick="startButtonClick();"/>
+    <input type="button" id="btnStop" value="Stop" disabled="true" onclick="stopButtonClick();"/>
+
+
+<P>
+    Countdown: <span id="DisplayCountdown">Ready for takeoff</span>
+</P>
+
+<script>
+    getUserInput()
+
+
+
+</script>
+</body>
+</html>
